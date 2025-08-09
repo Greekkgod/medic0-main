@@ -29,7 +29,7 @@ const HistoryPanel = ({ onLoadHistory, className }: HistoryPanelProps) => {
 
   const fetchHistory = useCallback(async () => {
     try {
-      const response = await fetch('/api/history');
+      const response = await fetch('https://medic-ai-backend-9ymn.onrender.com/api/history');
       if (!response.ok) {
         throw new Error('Failed to fetch history');
       }

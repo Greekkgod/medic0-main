@@ -73,7 +73,7 @@ const MedicalScribe = () => {
     setSoapNote("");
 
     try {
-      const response = await fetch('/api/generate', {
+      const response = await fetch('https://medic-ai-backend-9ymn.onrender.com/api/generate', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
