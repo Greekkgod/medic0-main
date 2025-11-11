@@ -1,73 +1,59 @@
-# Welcome to your Lovable project
+Here’s a revised, comprehensive README for your medic0-main (Medic.ai) project, following best practices:
 
-## Project info
+***
 
-**URL**: https://lovable.dev/projects/4ffff7ca-1344-4b83-8090-361c3086dc7a
+# Medic.ai — Explainable Medical Predictions
 
-## How can I edit this code?
+Medic.ai is an open-source platform for transparent and interpretable AI diagnostics in healthcare. It leverages cutting-edge machine learning and explainability tools to deliver responsible predictions clinicians can trust.
 
-There are several ways of editing your application.
+## 🌐 Live Demo
+[Medic.ai Demo](https://medic0-main.vercel.app/)
 
-**Use Lovable**
+## 📝 Project Description
+Medic.ai solves the problem of opaque, black-box predictions in medical AI. By integrating SHAP and LIME, it provides clear, human-readable explanations alongside predictive results—empowering medical professionals to understand the “why” behind every decision.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4ffff7ca-1344-4b83-8090-361c3086dc7a) and start prompting.
+## 🛠 Technologies Used
+- **Frontend:** React, TypeScript, Vite, Tailwind CSS, shadcn-ui
+- **Backend/ML:** Python, scikit-learn, SHAP, LIME
+- **DevOps:** Vercel (deployment)
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🚀 Installation & Usage
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### Frontend
+```bash
+git clone https://github.com/Greekkgod/medic0-main.git
+cd medic0-main
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### Backend
+[Document your backend setup here if code is available]
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Codespaces & Lovable
+- Easily edit in GitHub Codespaces or Lovable (see project documentation for details).
 
-**Use GitHub Codespaces**
+## 📊 Results & Insights
+- Intuitive dashboard for AI-driven medical predictions
+- SHAP and LIME explanations shown step-by-step
+- Promotes ethical/transparent healthcare AI
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+*Example Output:*
+![Dashboard Demo]( Add your actual UI screenshots! -->
+![SHAP Visualization]( Add your actual SHAP plot! -->
 
-## What technologies are used for this project?
+## 🔮 Future Work
+- Expand to more medical datasets and modalities
+- Integrate additional interpretability methods
+- Collaborate with clinicians for improved workflow
+- Enhance UI/UX for side-by-side decision comparison
 
-This project is built with:
+## 📚 Resources
+- [Live Demo](https://medic0-main.vercel.app/)
+- [Project Documentation](https://lovable.dev/projects/4ffff7ca-1344-4b83-8090-361c3086dc7a)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+***
 
-## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/4ffff7ca-1344-4b83-8090-361c3086dc7a) and click on Share -> Publish.
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+[1](https://github.com/Greekkgod/medic0-main)
