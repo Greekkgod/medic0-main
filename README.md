@@ -38,9 +38,10 @@ npm run dev
 - SHAP and LIME explanations shown step-by-step
 - Promotes ethical/transparent healthcare AI
 
-*Example Output:*
-![Dashboard Demo]( Add your actual UI screenshots! -->
-![SHAP Visualization]( Add your actual SHAP plot! -->
+![Dashboard Demo](Screenshot%202025-11-11%20232620.png)
+
+
+
 
 ## 🔮 Future Work
 - Expand to more medical datasets and modalities
